@@ -36,7 +36,11 @@ El sistema realiza una estimación continua del consumo energético total expres
   <img src="https://github.com/user-attachments/assets/58869ec0-05c6-462e-9fe5-9aabe5dd34c9" width="600" />
 </p>
 
-****El código se encuentra en este enlace:****
+<p align="center">
+  <strong>El código se encuentra en este enlace:</strong> <a href="[https://wokwi.com/projects/1234567890abcdef](https://wokwi.com/projects/431637870217802753)">Simulación en Wokwi</a>
+</p>
+
+
 
 ## 4. Realización de pruebas
 
