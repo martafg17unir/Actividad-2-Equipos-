@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Eva Díaz",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": 26.8, "left": 355.2, "attrs": {} }
+  ],
+  "connections": [
+    [ "servo1:V+", "uno:5V", "red", [ "h0" ] ],
+    [ "servo1:PWM", "uno:9", "orange", [ "h0" ] ],
+    [ "servo1:GND", "uno:GND.2", "black", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
