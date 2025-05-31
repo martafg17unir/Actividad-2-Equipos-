@@ -7,6 +7,15 @@ El objetivo es realizar una pequeña aplicación de medición, control, actuaci�
 
 ## 2. Realización de ejemplos
 
+Todos los ejemplos se han realizado siguiendo el guion de esta práctica, pero se han adaptado a las limitaciones de WOKWI y se han orientado hacia lo que se pide, que es crear un sistema de control y actuación de temperatura y humedad, otro de iluminación y finalmente, juntar ambos. Se incluye el código utilizado e imágenes.
+
+###  2.2	Ejemplo de aplicación de control de 8 leds con 74HC595
+Una forma de lograr el control de la iluminación es mediante un registro de desplazamiento y 8 leds. Este diseño va a servir para no desperdiciar energía y dar la iluminación necesaria en función del grado de oscuridad. Además, va a permitirnos usar menos pines de la placa.
+
+<img width="277" alt="image" src="https://github.com/user-attachments/assets/26fe91b7-b76b-4ca2-b668-c4eb8460113f" />
+
+
+
 ## 3.	Sistema conjunto de medición, control y actuación
 
 Como se especifica en el guión de la actividad, el objetivo general es diseñar e implementar un sistema de medición, control, actuación y presentación de variables climáticas utilizando Arduino UNO y otros componentes electrónicos, que simule el mantenimiento de condiciones óptimas para un sistema de baterías basado en la información climática recogida por sensores. 
