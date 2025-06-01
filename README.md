@@ -20,9 +20,24 @@ Una forma de lograr el control de la iluminación es mediante un registro de des
 
 <img width="277" alt="image" src="https://github.com/user-attachments/assets/26fe91b7-b76b-4ca2-b668-c4eb8460113f" />
 
+###  2.3	Ejemplo básico de sistema de medición, control y actuación
+El sistema interpreta la temperatura y humedad mediante un sensor DHT22, detecta el nivel de luz con una LDR y simula la presencia de viento mediante un potenciómetro conectado a un servo motor. En función de los valores obtenidos, el sistema activa LEDs indicadores (calor, frío, confort), enciende la iluminación artificial de forma escalonada, posiciona el servo y muestra la información en una pantalla LCD.
+La lógica principal implementa control automático de temperatura con zona muerta (reposo térmico), iluminación artificial en función de la luz ambiente y un indicador de confort ambiental basado en una combinación de temperatura adecuada y buena iluminación.
 
+| Componente        | Función en el circuito                         |
+|-------------------|------------------------------------------------|
+| DHT22             | Sensor temperatura y humedad                   |
+| LDR               | Sensor iluminación ambiental                   |
+| MQ2               | Sensor calidad del aire                        |
+| 8 LEDs blancos    | Iluminación artificial                         |
+| 3 LEDs RGB        | Indicadores de estado térmico                  |
+| Potenciómetro     |Simula la fuerza del viento                     |
+| Servo             | Gira proporcionalmente a la “fuerza del viento”|
+| Display LCD       | Visualización                                  |
 
-## 3.	Sistema conjunto de medición, control y actuación
+<img width="403" alt="image" src="https://github.com/user-attachments/assets/684d084c-9f8e-4f19-a6d3-f1c5a4407e12" />
+
+## 3. Ejemplo final: 	Sistema conjunto de medición, control y actuación
 
 Como se especifica en el guión de la actividad, el objetivo general es diseñar e implementar un sistema de medición, control, actuación y presentación de variables climáticas utilizando Arduino UNO y otros componentes electrónicos, que simule el mantenimiento de condiciones óptimas para un sistema de baterías basado en la información climática recogida por sensores. 
 Para la medición del estado del clima se utilizó el proyecto creado para la Actividad 1, que realiza mediciones de temperatura, humedad e iluminación. El sistema de baterías debe mantenerse en torno a 25 °C y 80% de humedad.
