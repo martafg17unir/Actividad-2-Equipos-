@@ -1,5 +1,5 @@
 # Actividad-2-Equipos-
-Repositorio para actividad 2 equipos del grupo 7
+Repositorio para actividad 2 equipos del grupo 7 (Marta Fernández Garrido, Nuria Miranda Gutiérrez, Ignacio Prieto Fernández-Plaza, Eva Díaz Mori).
 
 ## 1.	Introducción
 
