@@ -64,6 +64,14 @@ Temperatura entre 22º y 28ºC:
 
 <img width="404" alt="image" src="https://github.com/user-attachments/assets/557cecbd-0f6f-4c18-b917-0d496a523301" />
 
+El sistema desarrollado permite simular un entorno inteligente que responde automáticamente a condiciones ambientales, utilizando componentes de bajo coste y fácil programación. Su diseño modular permite ampliaciones futuras.
+
+Ventajas:
+  -Monitorización y actuación automática en tiempo real.
+  -Visualización clara en LCD.
+  -Iluminación adaptativa según luz.
+  -Sistema económico y fácilmente replicable.
+
 ## 3. Ejemplo final: 	Sistema conjunto de medición, control y actuación
 
 Como se especifica en el guión de la actividad, el objetivo general es diseñar e implementar un sistema de medición, control, actuación y presentación de variables climáticas utilizando Arduino UNO y otros componentes electrónicos, que simule el mantenimiento de condiciones óptimas para un sistema de baterías basado en la información climática recogida por sensores. 
