@@ -35,7 +35,34 @@ La lógica principal implementa control automático de temperatura con zona muer
 | Servo             | Gira proporcionalmente a la “fuerza del viento”|
 | Display LCD       | Visualización                                  |
 
-<img width="403" alt="image" src="https://github.com/user-attachments/assets/684d084c-9f8e-4f19-a6d3-f1c5a4407e12" />
+<img width="442" alt="image" src="https://github.com/user-attachments/assets/6fe179eb-7fa2-4d40-8881-a1e857ad9c15" />
+
+**El código se encuentra en este enlace: https://wokwi.com/projects/431642408807903233
+
+## 2.3.1 Realización de pruebas:
+
+### Pruebas de control y actuación sobre la temperatura:
+Temperatura inferior a 22ºC:
+  -Se activa el modo calefacción.
+  -Se enciende el LED rojo.
+  -En la LCD se muestra “Calor” y el ángulo actual del viento.
+  -LEDs blancos pueden encenderse según la luz.
+
+<img width="374" alt="image" src="https://github.com/user-attachments/assets/7941d5f7-d401-4d0b-921e-62089d3006d8" />
+
+Temperatura superior a 28ºC:
+  -Se activa el modo refrigeración.
+  -Se enciende el LED azul.
+  -En la LCD se muestra “Frio” y el ángulo del servo.
+  -LEDs blancos pueden encenderse según la luz.
+
+<img width="389" alt="image" src="https://github.com/user-attachments/assets/41cf8697-8c61-41db-9797-f38dda1e9981" />
+
+Temperatura entre 22º y 28ºC:
+  -Si la luz es suficiente (≥800), se enciende el LED verde de confort.
+  -Estado mostrado en la LCD: “Estable”.
+
+<img width="404" alt="image" src="https://github.com/user-attachments/assets/557cecbd-0f6f-4c18-b917-0d496a523301" />
 
 ## 3. Ejemplo final: 	Sistema conjunto de medición, control y actuación
 
