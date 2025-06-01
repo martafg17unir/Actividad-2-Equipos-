@@ -37,7 +37,7 @@ La lógica principal implementa control automático de temperatura con zona muer
 
 <img width="442" alt="image" src="https://github.com/user-attachments/assets/6fe179eb-7fa2-4d40-8881-a1e857ad9c15" />
 
-**El código se encuentra en este enlace: https://wokwi.com/projects/431642408807903233
+**El código se encuentra en este enlace**: https://wokwi.com/projects/431642408807903233
 
 ## 2.3.1 Realización de pruebas:
 
