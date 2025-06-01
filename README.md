@@ -42,35 +42,38 @@ La lógica principal implementa control automático de temperatura con zona muer
 ## 2.3.1 Realización de pruebas:
 
 ### Pruebas de control y actuación sobre la temperatura:
-Temperatura inferior a 22ºC:
-  -Se activa el modo calefacción.
-  -Se enciende el LED rojo.
-  -En la LCD se muestra “Calor” y el ángulo actual del viento.
-  -LEDs blancos pueden encenderse según la luz.
+### Temperatura inferior a 22 °C
+- Se activa el **modo calefacción**.
+- Se enciende el **LED rojo**.
+- En la **pantalla LCD** se muestra “Calor” y el ángulo actual del viento.
+- Los **LEDs blancos** pueden encenderse dependiendo del nivel de luz ambiental.
+
 
 <img width="374" alt="image" src="https://github.com/user-attachments/assets/7941d5f7-d401-4d0b-921e-62089d3006d8" />
 
-Temperatura superior a 28ºC:
-  -Se activa el modo refrigeración.
-  -Se enciende el LED azul.
-  -En la LCD se muestra “Frio” y el ángulo del servo.
-  -LEDs blancos pueden encenderse según la luz.
+### Temperatura superior a 28 °C
+- Se activa el **modo refrigeración**.
+- Se enciende el **LED azul**.
+- En la **pantalla LCD** se muestra “Frio” y el ángulo del servo.
+- Los **LEDs blancos** pueden encenderse dependiendo del nivel de luz ambiental.
+
 
 <img width="389" alt="image" src="https://github.com/user-attachments/assets/41cf8697-8c61-41db-9797-f38dda1e9981" />
 
-Temperatura entre 22º y 28ºC:
-  -Si la luz es suficiente (≥800), se enciende el LED verde de confort.
-  -Estado mostrado en la LCD: “Estable”.
+### Temperatura entre 22 °C y 28 °C
+- Si la **luz es suficiente** (≥800), se enciende el **LED verde de confort**.
+- En la **pantalla LCD** se muestra el estado: “Estable”.
 
 <img width="404" alt="image" src="https://github.com/user-attachments/assets/557cecbd-0f6f-4c18-b917-0d496a523301" />
 
 El sistema desarrollado permite simular un entorno inteligente que responde automáticamente a condiciones ambientales, utilizando componentes de bajo coste y fácil programación. Su diseño modular permite ampliaciones futuras.
 
-Ventajas:
-  -Monitorización y actuación automática en tiempo real.
-  -Visualización clara en LCD.
-  -Iluminación adaptativa según luz.
-  -Sistema económico y fácilmente replicable.
+### Ventajas
+- **Monitorización y actuación automática en tiempo real**.
+- **Visualización clara** en la pantalla LCD.
+- **Iluminación adaptativa** según el nivel de luz ambiental.
+- **Sistema económico** y fácilmente replicable.
+
 
 ## 3. Ejemplo final: 	Sistema conjunto de medición, control y actuación
 
