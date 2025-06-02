@@ -7,7 +7,7 @@ El objetivo es realizar una pequeña aplicación de medición, control, actuaci�
 
 ## 2. Realización de ejemplos
 
-Todos los ejemplos se han realizado siguiendo el guion de esta práctica, pero se han adaptado a las limitaciones de WOKWI y se han orientado hacia lo que se pide, que es crear un sistema de control y actuación de temperatura y humedad, otro de iluminación y finalmente, juntar ambos. Se incluye el código utilizado e imágenes.
+Todos los ejemplos se han realizado siguiendo el guión de esta práctica, pero se han adaptado a las limitaciones de WOKWI y se han orientado hacia lo que se pide, que es crear un sistema de control y actuación de temperatura y humedad, otro de iluminación y finalmente, juntar ambos. Se incluye el código utilizado e imágenes.
 
 ### 2.1.	Ejemplo de aplicación Servomotor
 En este ejemplo se muestra cómo controlar un servomotor directamente desde un pin digital del Arduino sin necesidad de fuente de alimentación externa, ya que no se aplica carga sobre el servo y su consumo es bajo. Utilizando la biblioteca Servo.h, se crea un objeto llamado myservo que permite controlar el ángulo del motor. En la función setup(), se vincula el servo al pin digital 9 y se inicia la comunicación serial. En la función loop(), mediante bucles for, el servo se mueve progresivamente de 0° a 180° y luego regresa a 0°, con retardos de 15 ms entre cada movimiento para garantizar una rotación suave.
